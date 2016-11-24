@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+    <title>Remplir son livret</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<header>
+    <div class="inner">
+        <nav>
+            <a href="profil.html"><img class="img-profil" src="images/profil.png"></a>
+            <a href="accueil.html" class="logo">Mon Parcours</a>
+            <input type="checkbox" id="nav" /><label for="nav"></label>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="infogens.html">Informations Générales</a></li>
+                <li><a href="formation.html">La Formation</a></li>
+                <li><a href="espace.html">Espace Personnel</a>
+                    <ul>
+                        <li><a href="#">Compléter Mon Livret</a></li>
+                        <li><a href="carteid.html">Compléter les Cartes d'identité</a></li>
+                        <li><a href="consultation.html">Consulter Mon Livret</a></li>
+                    </ul></li>
+                <li><a href="index.html">Déconnexion</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<h1>Remplir son livret professionnel d'apprentissage</h1>
+
+<section class="desc_mission">
+    <div class="titre-jdb">
+        <h2 class="titre-section">Description des missions confiées        <img class="droite" src="images/plus.png">
+        </h2>
+    </div>
+    <div class="contenu-jdb">
+    </div>
+</section>
+
+<section class="phase_inte">
+    <div class="titre-jdb">
+        <h2 class="titre-section">Phase d'intégration        <img class="droite" src="images/moins.png">
+        </h2>
+    </div>
+    <div class="contenu-jdb">
+        <h2 class="subtitre-section">Journal de bord        <img class="droite" src="images/moins.png"></h2>
+        <p class="info-section">Le journal de bord est la partie du livret professionnel d'apprentissage qui permet de recenser les missions de l'apprenant, le contexte de son activité, les moyens mis en oeuvre ainsi que ses résultats quantitatifs et qualitatifs</p>
+        <h4>Consignes d'utilisation</h4>
+        <h5>Pour l'apprenti</h5>
+        <p class="info-section">Il présente la liste des thèmes étudiés, travaux effectués dans son établissement de formation et les missions réalisées en entreprise.</p>
+        <p class="info-section">Cette liste permet entre autres au maître d'apprentissage de planifier les projets qu'il affecte à l'apprenti.</p>
+        <p class="info-section">Le journal de bord est aussi l'occasion de préciser les apports personnels de l'apprentissage, de décrire les éventuelles difficultés que l'apprenti peut rencontrer.</p>
+        <h5>Pour le maître d'apprentissage</h5>
+        <p class="info-section">Il vérifie que l'apprenti a présenté pour chaque session les travaux effectués en entreprise : objectifs de la période, travaux, responsabilités confiées, initiatives prises, observations.</p>
+        <p class="info-section">Il apporte ses commentaires sur le déroulement des missions et en fait le bilan.</p>
+        <h5>Pour le tuteur enseignant</h5>
+        <p class="info-section">Il vise le journal lors des rencontres avec l'apprenti et vérifie l'adéquation entre les missions confiées et le cursus universitaire.</p>
+    </div>
+    <div class="subdiv-section">
+        <p class="info-section">Maquette: Réalisation d'une maquette mobile pour un site de réservation de casques en ligne.</p>
+        <form action="#">
+            <input class="input_desc" name="description" placeholder="Décrivez les tâches accomplies..." >
+            <input class="input_desc" type="submit" value="Enregistrer">
+        </form>
+    </div>
+    <div class="contenu-jdb">
+        <h2 class="subtitre-section">Evaluation        <img class="droite" src="images/moins.png"></h2>
+        <p class="info-section">Le document de suivi et d'évaluation de l'activité a pour objectif de fixer 3 temps forts d'évaluation au cours de l'année de formation.</p>
+        <p class="info-section">L'évaluation porte sur les critères définis dans le tableau d'évaluation et sur les missions réalisées par l'apprenti sur son journal de bord.</p>
+        <p class="info-section">L'objectif du premier temps fort est d'évaluer son niveau d'intégration dans l'entreprise. Cette évaluation doit avoir lieu après 6/8 semaines en entreprise.</p>
+    <div class="subdiv-section">
+        <p class="info-section">Présentation Générale</p>
+        <form action="#">
+        <select class="notation-form">
+            <option name="notation">Insuffisant</option>
+            <option name="notation">Acceptable</option>
+            <option name="notation">Bon</option>
+            <option name="notation" selected>Excellent</option>
+        </select>
+        </form>
+        <p class="info-section">Ponctualité</p>
+        <form action="#">
+            <select class="notation-form">
+                <option name="notation">Insuffisant</option>
+                <option name="notation">Acceptable</option>
+                <option name="notation">Bon</option>
+                <option name="notation" selected>Excellent</option>
+            </select>
+        </form>
+        <p class="info-section">Relation avec l'équipe</p>
+        <form action="#">
+            <select class="notation-form">
+                <option name="notation">Insuffisant</option>
+                <option name="notation">Acceptable</option>
+                <option name="notation">Bon</option>
+                <option name="notation" selected>Excellent</option>
+            </select>
+        </form>
+
+        <p class="info-section">Relation avec l'extérieur</p>
+        <form action="#">
+            <select class="notation-form">
+                <option name="notation">Insuffisant</option>
+                <option name="notation">Acceptable</option>
+                <option name="notation">Bon</option>
+                <option name="notation" selected>Excellent</option>
+            </select>
+        </form>
+    </div>
+        <div class="subdiv-section">
+            <p class="info-section">Commentaires</p>
+        <textarea></textarea>
+            <p class="info-section">Signature</p>
+        <textarea></textarea>
+            <input class="Confirmer" type="submit" value="Confirmer">
+
+        </div>
+</div>
+</section>
+
+<section class="phase_apprenti">
+    <div class="titre-jdb">
+        <h2 class="titre-section">Phase d'apprentissage du métier        <img class="droite" src="images/plus.png">
+        </h2>
+    </div>
+    <div class="contenu-jdb">
+    </div>
+</section>
+
+
+<section class="phase_respnsblt">
+    <div class="titre-jdb">
+        <h2 class="titre-section">Phase de responsabilisation        <img class="droite" src="images/plus.png">
+        </h2>
+    </div>
+    <div class="contenu-jdb">
+    </div>
+</section>
+
+
+<section class="visites">
+    <div class="titre-jdb">
+        <h2 class="titre-section">Visites        <img class="droite" src="images/moins.png">
+        </h2>
+    </div>
+    <div class="subdiv-section">
+        <p class="info-section">Date</p>
+        <form action="#">
+        <input class="notation-form" type="date" name="date" placeholder="JJ/MM/AAAA">
+        </form>
+        <p class="info-section">Signature</p>
+        <form action="#">
+        <textarea></textarea>
+            <input class="Confirmer" type="submit" value="Confirmer">
+
+        </form>
+    </div>
+
+</section>
+
+
+</body>
+<footer>
+<div class="infos">
+
+    <p class="mention">Projet réalisé dans le cadre d'un exercice pédagogique au <a class="mmi" href="http://www.src-media.com/dut-mmi">département MMI</a> de Montbéliard.</p>
+</div>
+</footer>
+</html>
